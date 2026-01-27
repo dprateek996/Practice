@@ -11,7 +11,7 @@ function debouncePopulateDiv(){
  
     const timeout = setTimeout(function(){
     populateDiv()
-    },100);
+    },1000);
     clearTimeout(timeout); 
 
 }
